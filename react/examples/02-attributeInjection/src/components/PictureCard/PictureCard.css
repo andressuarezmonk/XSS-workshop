@@ -23,7 +23,16 @@
 
 .picture-card > label,
 .picture-card > a {
+  word-break: break-word;
   font-size: 16px;
+}
+
+.picture-card > a {
+  color: rgb(150, 182, 187);
+}
+
+.picture-card > a:visited {
+  color: rgb(118, 118, 118);
 }
 
 .picture-card > label{

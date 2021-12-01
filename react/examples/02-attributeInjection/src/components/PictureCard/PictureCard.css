@@ -1,0 +1,31 @@
+.picture-card {
+  box-sizing: border-box;
+  margin-top: 64px;
+
+  width: 50vh;
+
+  background-color: #3e434b;
+
+  border-radius: 16px;
+
+  padding: 16px 32px;
+}
+
+.picture-card > h1 {
+  text-align: end;
+  margin: 0;
+}
+
+.picture-card > img {
+  width: 115%;
+  margin: 0 -32px;
+}
+
+.picture-card > label,
+.picture-card > a {
+  font-size: 16px;
+}
+
+.picture-card > label{
+  margin-right: 8px;
+}

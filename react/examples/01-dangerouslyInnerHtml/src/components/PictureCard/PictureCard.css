@@ -1,0 +1,40 @@
+.picture-card {
+  box-sizing: border-box;
+  margin-top: 64px;
+
+  width: 50vh;
+
+  background-color: #3e434b;
+
+  border-radius: 16px;
+
+  padding: 16px 32px;
+}
+
+.picture-card > h1 {
+  text-align: end;
+  margin: 0;
+}
+
+.picture-card > div > img{
+  width: 115%;
+  margin: 0 -32px;
+}
+
+.picture-card > label,
+.picture-card > a {
+  word-break: break-word;
+  font-size: 16px;
+}
+
+.picture-card > a {
+  color: rgb(150, 182, 187);
+}
+
+.picture-card > a:visited {
+  color: rgb(118, 118, 118);
+}
+
+.picture-card > label{
+  margin-right: 8px;
+}

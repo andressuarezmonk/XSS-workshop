@@ -1,0 +1,37 @@
+form {
+  display: flex;
+  align-items: center;
+}
+
+form > input {
+  height: 24px;
+}
+
+form > label {
+  margin-right: 16px;
+}
+
+form > label:not(:first-child),
+form > button {
+  margin-left: 64px;
+}
+
+form > input:nth-child(6){
+  width: 20%;
+}
+
+form > button{
+  border: none;
+  border-radius: 5px;
+
+  height: 32px;
+  width: 120px;
+
+  background-color: rgb(187, 233, 233);
+}
+
+form > button:hover{
+  cursor: pointer;
+  background-color: rgb(154, 205, 205);
+}
+

@@ -1,8 +1,9 @@
 ## TODO: Write a proper explanation
-This gets injected into the Image input -> href
-`javascript:alert(localStorage.getItem('superSecretCredentials'))`
+This gets injected into the Image input -> img src
 
-preventable by doing `<a href={encodeURIComponent(imageSrc)}>{imageSrc}</a>`
+`' onerror='alert(localStorage.getItem("superSecretCredentials"))'`
+
+preventable by not doing `dangerouslySetInnerHTML with any kind of user input`
 
 # Getting Started with Create React App
 
